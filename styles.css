@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.938rem;
+}
+
+.qr-bg-color {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d5e1ef;
+}
+
+.qr-container {
+  max-width: 320px;
+  max-height: 497px;
+  border-radius: 20px;
+  padding: 16px 16px 40px;
+  background-color: #ffffff;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  drop-shadow: 0 25px 25px rgba(151, 151, 151, 0.3);
+  -moz-box-shadow: 0 25px 25px rgba(151, 151, 151, 0.3);
+  -webkit-box-shadow: 0 25px 25px rgba(151, 151, 151, 0.3);
+}
+
+.qr-container-img {
+  max-width: 288px;
+  max-height: 288px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.qr-img {
+  width: 100%;
+
+  height: 100%;
+  object-fit: cover;
+}
+
+.qr-container-text {
+  max-width: 288px;
+  padding: 0 16px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.qr-title {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: #1f314f;
+}
+
+.qr-text {
+  color: #7d889e;
+}
